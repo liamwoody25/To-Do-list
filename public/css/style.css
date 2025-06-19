@@ -1,0 +1,83 @@
+/**** base components ****/
+
+.add-btn {
+  width: 150px;
+  background-color: lightskyblue;
+  font-size: 20px;
+  color: darkblue;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 2px 2px 5px -3px black;
+  cursor: pointer;
+}
+
+li {
+  font-size: 20px;
+  color: #fff;
+  list-style: none;
+  margin-left: -37px;
+  line-height: 40px;
+}
+
+.delete-btn {
+  width: 130px;
+  height: 43px;
+  background-color: lightskyblue;
+  color: darkblue;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+}
+
+
+/**** base body ****/
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 150px 0px 150px;
+  display: flex;
+  justify-content: center;
+}
+
+/**** base container ****/
+
+.container {
+  width: 33%;
+  background-color: royalblue;
+  box-shadow:1px 4px 5px -1px black ;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+header {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0px 7px 7px 0px;
+  outline: none;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
