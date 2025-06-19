@@ -1,8 +1,7 @@
-const addTask = document.querySelector('.add-btn');
-const removeTask = document.querySelector('.delete-btn');
+const addTask = document.querySelector('.add-btn'); 
+const removeTask = document.querySelector('.delete-btn'); 
 
-
-
+// this code operates the task button when pressed
 addTask.addEventListener('click', function(){
   const input = document.querySelector('.task-input')
   const list = document.querySelector('ul');
@@ -13,6 +12,8 @@ addTask.addEventListener('click', function(){
   list.append(task)
 })
 
+
+// this code operates the delete button when pres
 removeTask.addEventListener('click', function(){
   const lastTask = document.querySelector('li:last-child');
   lastTask.remove()

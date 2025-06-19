@@ -12,7 +12,7 @@
 }
 
 li {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   list-style: none;
   margin-left: -37px;
@@ -47,7 +47,7 @@ body {
 .container {
   width: 33%;
   background-color: royalblue;
-  box-shadow:1px 4px 5px -1px black ;
+  box-shadow:4px 3px 8px -1px black ;
   padding: 30px;
   border-radius: 10px;
 }
@@ -71,7 +71,7 @@ input {
   border: none;
   border-radius: 0px 7px 7px 0px;
   outline: none;
-  font-size: 20px;
+  font-size: 16px;
   padding-left: 20px;
 }
 
