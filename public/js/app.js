@@ -15,7 +15,7 @@ addTask.addEventListener('click', function(){
 
 // this code operates the delete button when pres
 removeTask.addEventListener('click', function(){
-  const lastTask = document.querySelector('li:last-child');
+  const lastTask = document.querySelector('li');
   lastTask.remove()
 })
 
