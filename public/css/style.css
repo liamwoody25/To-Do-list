@@ -45,7 +45,7 @@ body {
 /**** base container ****/
 
 .container {
-  width: 60%;
+  width: 293px;
   background-color: royalblue;
   box-shadow:4px 3px 8px -1px black ;
   padding: 30px;
@@ -79,5 +79,35 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: end;
+}
+
+/**** media querie ****/
+
+@media screen and (min-width:1440px) {
+
+  .add-btn {
+    font-size: 20px;
+  }
+
+  .delete-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  header {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .container {
+    width: 33%;
+  }
+
+  input {
+    width: 300px;
+    font-size: 16px;
+  }
+
 }
 
