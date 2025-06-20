@@ -3,7 +3,7 @@
 .add-btn {
   width: 150px;
   background-color: lightskyblue;
-  font-size: 20px;
+  font-size: 16px;
   color: darkblue;
   border: none;
   border-radius: 5px 0px 0px 5px;
@@ -20,11 +20,11 @@ li {
 }
 
 .delete-btn {
-  width: 130px;
-  height: 43px;
+  width: 90px;
+  height: 30px;
   background-color: lightskyblue;
   color: darkblue;
-  font-size: 20px;
+  font-size: 16px;
   border: none;
   border-radius: 6px;
 }
@@ -45,7 +45,7 @@ body {
 /**** base container ****/
 
 .container {
-  width: 33%;
+  width: 60%;
   background-color: royalblue;
   box-shadow:4px 3px 8px -1px black ;
   padding: 30px;
@@ -54,7 +54,7 @@ body {
 
 header {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -65,7 +65,7 @@ header {
 }
 
 input {
-  width: 300px;
+  width: 200px;
   height: 50px;
   background-color: whitesmoke;
   border: none;
